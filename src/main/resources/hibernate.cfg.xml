@@ -7,7 +7,7 @@
     <session-factory>
         <!-- Database connection settings -->
 <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
-<property name="hibernate.connection.url">jdbc:mysql://aws.connect.psdb.cloud/notappdb?sslMode=VERIFY_IDENTITY</property>
+<property name="hibernate.connection.url">mysql://root:aSfQnCRhJSvxlDzfwQbbmximHmtFJsyF@trolley.proxy.rlwy.net:59731/railway</property>
 <property name="hibernate.connection.username">root</property>
 <property name="hibernate.connection.password">Dinesh@0025</property>
 
