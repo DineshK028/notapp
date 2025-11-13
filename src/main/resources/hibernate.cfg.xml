@@ -8,8 +8,8 @@
         <!-- Database connection settings -->
 <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
 <property name="hibernate.connection.url">jdbc:mysql://aws.connect.psdb.cloud/notappdb?sslMode=VERIFY_IDENTITY</property>
-<property name="hibernate.connection.username">your_planetscale_username</property>
-<property name="hibernate.connection.password">your_planetscale_password</property>
+<property name="hibernate.connection.username">root</property>
+<property name="hibernate.connection.password">Dinesh@0025</property>
 
 
         
