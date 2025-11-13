@@ -6,10 +6,11 @@
 <hibernate-configuration>
     <session-factory>
         <!-- Database connection settings -->
-   <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
-<property name="hibernate.connection.url">${DB_URL}</property>
-<property name="hibernate.connection.username">${DB_USER}</property>
-<property name="hibernate.connection.password">${DB_PASSWORD}</property>
+<property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+<property name="hibernate.connection.url">jdbc:mysql://aws.connect.psdb.cloud/notappdb?sslMode=VERIFY_IDENTITY</property>
+<property name="hibernate.connection.username">your_planetscale_username</property>
+<property name="hibernate.connection.password">your_planetscale_password</property>
+
 
         
         <!-- Hibernate properties -->
