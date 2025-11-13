@@ -1,5 +1,5 @@
 # Use Maven with JDK 11 to build the WAR
-FROM maven:3.8.7-openjdk-11 AS build
+FROM maven:3.9.6-eclipse-temurin-17 AS build
 WORKDIR /app
 COPY . /app
 RUN mvn clean package -DskipTests
