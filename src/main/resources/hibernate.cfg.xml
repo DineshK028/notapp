@@ -7,9 +7,10 @@
     <session-factory>
         <!-- Database connection settings -->
 <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
-<property name="hibernate.connection.url">mysql://root:aSfQnCRhJSvxlDzfwQbbmximHmtFJsyF@trolley.proxy.rlwy.net:59731/railway</property>
-<property name="hibernate.connection.username">root</property>
-<property name="hibernate.connection.password">Dinesh@0025</property>
+<property name="hibernate.connection.url">${DB_URL}</property>
+<property name="hibernate.connection.username">${DB_USER}</property>
+<property name="hibernate.connection.password">${DB_PASSWORD}</property>
+
 
 
         
