@@ -8,9 +8,10 @@
 
         <!-- Database connection settings -->
         <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
-        <property name="hibernate.connection.url">${DB_URL}</property>
-        <property name="hibernate.connection.username">${DB_USER}</property>
-        <property name="hibernate.connection.password">${DB_PASSWORD}</property>
+<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/yourdb</property>
+<property name="hibernate.connection.username">yourusername</property>
+<property name="hibernate.connection.password">yourpassword</property>
+
 
         <!-- Hibernate properties -->
         <property name="hibernate.dialect">org.hibernate.dialect.MySQL8Dialect</property>
